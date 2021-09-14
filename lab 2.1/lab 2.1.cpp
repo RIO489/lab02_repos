@@ -16,7 +16,7 @@ int main()
 
 	cout << "a =  "; cin >> a;
 
-	z1 =  1./4 * ( sin(a+a) * sin(a+a) ) + cos(a+a);
+	z1 = 1- 1./4 * ( sin(a+a) * sin(a+a) ) + cos(a+a);
 	z2 = (cos(a) * cos(a)) + (cos(a) * cos(a) * cos(a) * cos(a));
 
 	cout << endl;
@@ -24,4 +24,7 @@ int main()
 	cout << "z2 = " << z2 << endl;
 	cin.get();
 	return 0;
+
+
+
 }
